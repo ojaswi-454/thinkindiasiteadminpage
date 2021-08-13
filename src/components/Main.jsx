@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import ManagePosts from "./Manageposts";
+
 function Main() {
     return (
        
@@ -20,14 +20,13 @@ function Main() {
         <div class="home">
            
            <ul class="homeul">
-            <li><a class="homeb" href="#">Add People</a></li>
-            <li><a class="homeb" href="#">Manage People</a></li>
-            <li><a class="homeb" href="#">Add Post</a></li>  
-            <li><a class="homeb" href="#">Manage Post</a></li>   
-            <NavLink to="/manageposts">Manage Posts</NavLink>     
+           <li><NavLink class="homeb" to="/addpeople">Add People</NavLink></li>
+         <li><NavLink class="homeb" to="/managepeople">Manage People</NavLink></li>
+         <li><NavLink class="homeb" to="/addposts">Add Posts</NavLink></li>  
+         <li><NavLink class="homeb" to="/manageposts">Manage Posts</NavLink></li>     
            </ul>
        </div>
-       {/* <ManagePosts /> */}
+      
        </div>
  
 </div>

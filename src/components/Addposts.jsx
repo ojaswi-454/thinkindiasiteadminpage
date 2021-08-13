@@ -2,17 +2,17 @@ import React from "react";
 import Adminnav from "./Adminnav";
 import Sidebar from "./Sidebar";
 
-function ManagePosts() {
+function AddPosts() {
     return (
         <div class="main">
 
             <Sidebar />
             <div class="managehome">
                 <Adminnav />
-                <div class="manageposts">
+                <div class="addposts">
 
-                    <h1 class="title"> Manage Posts</h1>
-                    <table class="managetable">
+                    <h1 class="title"> Add Posts</h1>
+                    <table class="addtable">
                         <thead>
                             <tr>
                                 <th> SN </th>
@@ -48,4 +48,6 @@ function ManagePosts() {
     );
 }
 
-export default ManagePosts;
+
+
+export default AddPosts;

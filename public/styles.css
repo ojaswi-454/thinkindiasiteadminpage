@@ -101,11 +101,11 @@ ul{
     
 }
 
-.manageposts{
+.manageposts,.addposts,.managepeople,.addpeople{
 align-items: center;
 padding:0% 8%;
 }
-.managetable{
+.managetable,.addtable{
     align-items: center;
 }
 .edit {
@@ -135,4 +135,5 @@ th,td {
 .edit:hover,.delete:hover {
     text-decoration: underline;
 }
+
   

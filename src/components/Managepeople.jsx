@@ -2,16 +2,16 @@ import React from "react";
 import Adminnav from "./Adminnav";
 import Sidebar from "./Sidebar";
 
-function ManagePosts() {
+function ManagePeople() {
     return (
         <div class="main">
 
             <Sidebar />
             <div class="managehome">
                 <Adminnav />
-                <div class="manageposts">
+                <div class="managepeople">
 
-                    <h1 class="title"> Manage Posts</h1>
+                    <h1 class="title"> Manage People</h1>
                     <table class="managetable">
                         <thead>
                             <tr>
@@ -48,4 +48,6 @@ function ManagePosts() {
     );
 }
 
-export default ManagePosts;
+
+
+export default ManagePeople;
