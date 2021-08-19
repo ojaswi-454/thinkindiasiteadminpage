@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "title": "DIY",
+      "body": "DIY is the best",
+      "topic": "",
+      "id": 1
+    },
+    {
+      "title": "Responsive-Pages",
+      "body": "Responsive page ",
+      "topic": "",
+      "id": 4
+    },
+    {
+      "title": "Debate",
+      "body": "debate",
+      "topic": "",
+      "id": 5
+    }
+  ]
+}
