@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "title": "DIY",
+      "body": "DIY is the best",
+      "topic": "",
+      "id": 1
+    },
+    {
+      "title": "Responsive-Pages",
+      "body": "Responsive page ",
+      "topic": "",
+      "id": 4
+    },
+    {
+      "title": "Debate",
+      "body": "debate",
+      "topic": "",
+      "id": 5
+    },
+    {
+      "name": "Khushi Kumari",
+      "about": "khushi",
+      "topic": "",
+      "id": 6
+    },
+    {
+      "name": "ojaswi agrawal",
+      "about": "ojaswi",
+      "topic": "",
+      "id": 8
+    },
+    {
+      "name": "komal",
+      "about": "komal",
+      "topic": "",
+      "id": 9
+    }
+  ]
+}
